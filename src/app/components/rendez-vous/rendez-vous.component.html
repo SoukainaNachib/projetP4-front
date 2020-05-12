@@ -1,1 +1,30 @@
 <h1>rendez-vous</h1>
+<button type="button" class="btn btn-primary btn-lg btn-block">Les praticiens disponibles</button>
+<button type="button" class="btn btn-primary btn-lg btn-block">Agenda des Rendez-vous</button>
+<form>
+    <h4>Prise de rendez-vous</h4>
+    <div class="row">
+        <div class="col">
+            <label for="date">La date souhaité*</label>
+            <input type="datetime" class="form-control" placeholder="datetime">
+        </div>
+        <div class="col">
+            <label for="lname">N° d'ordre*</label>
+            <input type="number" class="form-control" placeholder="nombre">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <label for="CIN">ID Patient*</label>
+            <input type="text" class="form-control" placeholder="">
+        </div>
+        <div class="col">
+            <label for="TEL">ID Praticien*</label>
+            <input type="text" class="form-control" placeholder="">
+        </div>
+    </div>
+    <button class="btn btn-primary" type="button" disabled>
+        <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+        Loading...
+      </button>
+</form>
